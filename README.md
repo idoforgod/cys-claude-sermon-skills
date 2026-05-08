@@ -2,7 +2,7 @@
 
 # 📖 Claude Sermon Skills
 
-**한국 목회자·신학생·진지한 평신도를 위한 Claude 설교 준비 스킬 모음**
+**한국 목회자·신학생·진지한 평신도를 위한 Claude 성경연구 및 설교 준비 도우미 스킬 모음**
 
 20개의 통합 설교 준비 스킬 · Claude.ai 웹/앱 + Claude Code CLI 동시 지원
 
