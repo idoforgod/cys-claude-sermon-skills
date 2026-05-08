@@ -735,17 +735,46 @@ claude-sermon-skills/
 
 ---
 
-## 🌐 라이선스 & 신학적 입장
+## 🌐 라이선스 & 신학적 입장 · License & Theological Stance
 
-- 코드/스킬 정의: **MIT License**
-- 본 스킬들은 **교파 중립적**이지만 **정통 기독교 신앙**(니케아·사도신경·종교개혁 5 sola) 위에 서 있습니다.
-- 인용된 신학자들의 입장은 그들의 1차 자료에 근거하여 정확히 전달하되, 해석의 다양성을 존중합니다.
+### 라이선스 / License
+
+- **코드 및 스킬 정의 / Code & skill definitions** — **MIT License** ([`LICENSE`](./LICENSE) 참조 / *see [`LICENSE`](./LICENSE)*)
+- 자유롭게 사용·수정·재배포할 수 있으며, 상업적 사용도 허용됩니다.
+  *Free to use, modify, and redistribute — including commercial use.*
+- 단, **저작권 표시와 라이선스 사본**은 유지해 주세요.
+  *The copyright notice and license text must be retained in any distribution.*
+
+### 신학적 입장 / Theological stance
+
+- **교파 중립 / Denominationally neutral**
+  - 본 스킬은 장로교·감리교·성결교·침례교·성공회·루터파·복음주의 등 **모든 정통 개신교 교파** 사용자가 활용할 수 있도록 설계되었습니다.
+  - *Designed for use across all orthodox Protestant traditions — Presbyterian, Methodist, Holiness, Baptist, Anglican, Lutheran, evangelical, and beyond.*
+
+- **정통 기독교 신앙 / Orthodox Christian faith**
+  - 니케아 신경(Nicene Creed)·사도신경(Apostles' Creed)·종교개혁의 **5 Solas**(*sola scriptura · sola fide · sola gratia · solus Christus · soli Deo gloria*) 위에 서 있습니다.
+  - *Standing on the Nicene Creed, the Apostles' Creed, and the **Five Solas** of the Reformation.*
+
+- **신학자 인용 원칙 / Citation discipline**
+  - 어거스틴·루터·칼빈·바빙크·로이드 존스 등 인용된 신학자들의 입장은 **그들의 1차 자료(primary sources)에 근거하여 정확히** 전달합니다.
+  - 해석의 다양성을 존중하며, 추측이나 사후 해석은 회피합니다.
+  - *Theologians (Augustine, Luther, Calvin, Bavinck, Lloyd-Jones, etc.) are represented strictly from their **primary sources**, with care for interpretive diversity and avoidance of speculation.*
+
+- **이단·왜곡 필터 / Heterodoxy filter**
+  - 한국 강단에 흔한 가짜 어원·풍유적 곡해·아전인수식 적용·이단적 재해석을 자동 식별·필터링합니다 (특히 `sermon-text-analysis-multimethod`).
+  - *Pseudo-etymology, allegorical distortion, forced applications, and heterodox readings — common pitfalls in Korean pulpits — are auto-detected and filtered (notably by `sermon-text-analysis-multimethod`).*
 
 ---
 
-## 🙏 만든 사람
+## 🙏 만든 사람 · Author
 
-**최윤식 박사 (Dr. Choi Yoon-sik)** · 미래학자, 목회자, 아시아미래인재연구소 소장
+**최윤식 박사** · *Dr. Choi Yoon-sik*
+
+- **미래학자 / Futurist** — 아시아미래인재연구소 소장 / *Director, Asia Institute for Future Talent (亞細亞未來人材硏究所).*
+- **목회자 / Pastor** — 소망과사랑의교회 담임목사 / *Senior pastor, Hope and Love Church.*
+- **사역 영역 / Areas of work** — 미래학·경영전략 컨설팅, 설교·목회 사역, 그리스도인의 시대 분별 / *Futures studies & strategy consulting, preaching & pastoral ministry, discernment of the times for Christians.*
+
+> 📬 **연락 / Contact** — GitHub Issues로 의견 주세요. / *Open a GitHub Issue to reach out.*
 
 ---
 
