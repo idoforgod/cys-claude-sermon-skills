@@ -29,7 +29,7 @@
 
 ```bash
 # 1. 저장소 클론
-git clone https://github.com/<YOUR_GITHUB>/claude-sermon-skills.git
+git clone https://github.com/idoforgod/claude-sermon-skills.git
 cd claude-sermon-skills
 
 # 2. 자동 설치 (~/.claude/skills 에 심볼릭 링크 생성)
@@ -77,7 +77,7 @@ Claude가 적절한 sermon skill을 자동으로 호출합니다.
 
 #### 1) ZIP 패키지 생성
 ```bash
-git clone https://github.com/<YOUR_GITHUB>/claude-sermon-skills.git
+git clone https://github.com/idoforgod/claude-sermon-skills.git
 cd claude-sermon-skills
 bash scripts/package.sh
 ```
@@ -212,7 +212,7 @@ bash scripts/uninstall.sh --target ./.claude/skills -y
 
 ## 🔧 문제가 발생했을 때
 
-[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)를 먼저 확인해 주세요. 거기에도 답이 없다면 [GitHub Issues](https://github.com/<YOUR_GITHUB>/claude-sermon-skills/issues)에 등록해 주세요.
+[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)를 먼저 확인해 주세요. 거기에도 답이 없다면 [GitHub Issues](https://github.com/idoforgod/claude-sermon-skills/issues)에 등록해 주세요.
 
 ---
 

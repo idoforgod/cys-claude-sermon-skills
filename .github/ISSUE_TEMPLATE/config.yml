@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📖 사용 예시 보기
-    url: https://github.com/<YOUR_GITHUB>/claude-sermon-skills/tree/main/examples
+    url: https://github.com/idoforgod/claude-sermon-skills/tree/main/examples
     about: 7가지 사용 시나리오를 먼저 확인해 보세요
   - name: 🛠 트러블슈팅 가이드
-    url: https://github.com/<YOUR_GITHUB>/claude-sermon-skills/blob/main/docs/TROUBLESHOOTING.md
+    url: https://github.com/idoforgod/claude-sermon-skills/blob/main/docs/TROUBLESHOOTING.md
     about: 14가지 자주 묻는 문제 해결법
   - name: ❓ FAQ
-    url: https://github.com/<YOUR_GITHUB>/claude-sermon-skills/blob/main/docs/FAQ.md
+    url: https://github.com/idoforgod/claude-sermon-skills/blob/main/docs/FAQ.md
     about: 자주 묻는 질문

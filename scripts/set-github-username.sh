@@ -39,6 +39,9 @@ echo
 # 대상 파일들
 FILES=(
   "README.md"
+  "CHANGELOG.md"
+  "CODE_OF_CONDUCT.md"
+  "CONTRIBUTING.md"
   "docs/INSTALLATION.md"
   "docs/TROUBLESHOOTING.md"
   "docs/FAQ.md"
@@ -61,7 +64,7 @@ done
 
 echo
 echo "────────────────────────────────────────"
-echo "✓ $CHANGED개 파일 업데이트 완료"
+echo "✓ ${CHANGED}개 파일 업데이트 완료"
 echo "────────────────────────────────────────"
 echo
 echo "다음 단계:"

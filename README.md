@@ -34,28 +34,60 @@
 
 ## ⚡ 빠른 설치
 
-> 💡 **저장소를 본인 GitHub에 올리신 경우** — 먼저 다음 한 줄로 모든 문서의 `<YOUR_GITHUB>` 플레이스홀더를 본인 사용자명으로 일괄 치환하세요:
-> ```bash
-> bash scripts/set-github-username.sh <your-github-username>
-> ```
+### 사전 요건
 
-### 방법 1. Claude Code CLI 사용자 (권장)
+- **Git** — 터미널에서 `git --version`으로 확인
+- **Bash** — macOS·Linux 기본 탑재
+- **Claude Code CLI** (방법 1·2 선택 시) — [공식 문서](https://docs.claude.com/claude-code) 참고
+
+---
+
+### 방법 1. 터미널 한 줄 설치 (가장 빠름) ⭐
+
+macOS·Linux 터미널을 열고 아래 한 줄을 붙여넣어 실행하세요. 클론 → 설치 → 검증이 한 번에 끝납니다.
+
+```bash
+git clone https://github.com/idoforgod/claude-sermon-skills.git ~/claude-sermon-skills \
+  && cd ~/claude-sermon-skills \
+  && bash scripts/install.sh \
+  && bash scripts/verify.sh
+```
+
+설치 완료 후 **Claude Code를 재시작**하면 20개 sermon skill이 활성화됩니다. 기본 설치 위치는 `~/.claude/skills/`이며, 본 저장소의 각 스킬 폴더로 심볼릭 링크가 만들어집니다.
+
+> 💡 **이미 클론한 저장소가 있다면** — 해당 폴더로 이동한 뒤 `bash scripts/install.sh && bash scripts/verify.sh`만 실행하시면 됩니다.
+
+---
+
+### 방법 2. 단계별 설치 (CLI)
+
+원하는 위치에서 직접 한 단계씩 실행하실 수도 있습니다.
 
 ```bash
 # 1. 저장소 클론
-git clone https://github.com/<YOUR_GITHUB>/claude-sermon-skills.git
+git clone https://github.com/idoforgod/claude-sermon-skills.git
 cd claude-sermon-skills
 
-# 2. 자동 설치 스크립트 실행 (~/.claude/skills 로 심볼릭 링크 또는 복사)
+# 2. ~/.claude/skills/ 에 심볼릭 링크
 bash scripts/install.sh
 
-# 3. 설치 확인
+# 3. 설치 확인 (20개 스킬 frontmatter·구조 점검)
 bash scripts/verify.sh
 ```
 
-설치 후 Claude Code를 재시작하면 20개 sermon skill이 모두 활성화됩니다.
+설치 옵션:
 
-### 방법 2. Claude.ai 웹/앱 사용자
+| 명령어 | 설명 |
+|---|---|
+| `bash scripts/install.sh` | 기본 — `~/.claude/skills/`에 심볼릭 링크 |
+| `bash scripts/install.sh --copy` | 심볼릭 링크 대신 파일 복사 |
+| `bash scripts/install.sh --target ./.claude/skills` | 프로젝트 로컬에 설치 |
+| `bash scripts/install.sh --force` | 동일명 스킬 덮어쓰기 |
+| `bash scripts/uninstall.sh` | 설치된 sermon 스킬 제거 |
+
+---
+
+### 방법 3. Claude.ai 웹/앱 사용자
 
 Claude.ai 인터페이스에서는 스킬을 **개별 업로드** 또는 **프로젝트(Projects) 첨부**로 사용합니다.
 
@@ -66,11 +98,28 @@ bash scripts/package.sh
 # → dist/ 폴더에 sermon-*.zip 20개와 claude-sermon-skills-all.zip 1개 생성
 ```
 
-자세한 단계는 [docs/INSTALLATION.md](./docs/INSTALLATION.md)를 참고하세요.
+생성된 ZIP 파일을 Claude.ai의 [프로젝트(Projects)](https://claude.ai/projects)에 업로드하거나, 대화창에 직접 첨부하시면 됩니다. 자세한 단계는 [`docs/INSTALLATION.md`](./docs/INSTALLATION.md)를 참고하세요.
 
-### 방법 3. 수동 설치
+---
 
-각 `skills/sermon-*` 폴더를 `~/.claude/skills/` 또는 프로젝트의 `.claude/skills/`에 복사하시면 됩니다.
+### 방법 4. 수동 설치
+
+스크립트 없이 직접 복사하셔도 됩니다. 각 `skills/sermon-*` 폴더를 다음 위치 중 하나로 복사하시면 됩니다.
+
+- 사용자 전역: `~/.claude/skills/`
+- 프로젝트 로컬: `<프로젝트 루트>/.claude/skills/`
+
+---
+
+> 💡 **이 저장소를 fork해서 본인 GitHub 계정으로 publish하실 경우** — 모든 문서의 `idoforgod`를 본인 사용자명으로 일괄 치환하세요:
+> ```bash
+> # macOS
+> find . -type f \( -name "*.md" -o -name "*.yml" \) ! -path "./.git/*" \
+>   -exec sed -i '' "s|idoforgod|<your-username>|g" {} +
+> # Linux
+> find . -type f \( -name "*.md" -o -name "*.yml" \) ! -path "./.git/*" \
+>   -exec sed -i "s|idoforgod|<your-username>|g" {} +
+> ```
 
 ---
 

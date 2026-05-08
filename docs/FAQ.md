@@ -109,7 +109,7 @@ MIT 라이선스이므로 가능합니다. 다만 본 스킬을 그대로 유료
 ## 🙋 그 외
 
 ### Q. 버그를 발견했어요
-[GitHub Issues](https://github.com/<YOUR_GITHUB>/claude-sermon-skills/issues)에 등록해 주세요.
+[GitHub Issues](https://github.com/idoforgod/claude-sermon-skills/issues)에 등록해 주세요.
 
 ### Q. 새 스킬 아이디어가 있어요
 역시 GitHub Issues에 **enhancement** 라벨로 등록해 주세요.

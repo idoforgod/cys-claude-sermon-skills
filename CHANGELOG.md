@@ -58,4 +58,4 @@
 - 설교 영상 분석 스킬 (멀티모달)
 - VSCode/Cursor 연동 가이드
 
-[1.0.0]: https://github.com/<YOUR_GITHUB>/claude-sermon-skills/releases/tag/v1.0.0
+[1.0.0]: https://github.com/idoforgod/claude-sermon-skills/releases/tag/v1.0.0

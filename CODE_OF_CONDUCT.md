@@ -31,7 +31,7 @@
 
 ## 신고
 
-행동 강령 위반 사례는 [GitHub Issues](https://github.com/<YOUR_GITHUB>/claude-sermon-skills/issues) 또는 메인테이너에게 직접 비공개로 알려 주시기 바랍니다.
+행동 강령 위반 사례는 [GitHub Issues](https://github.com/idoforgod/claude-sermon-skills/issues) 또는 메인테이너에게 직접 비공개로 알려 주시기 바랍니다.
 
 ## 인용
 

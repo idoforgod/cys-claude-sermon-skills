@@ -86,7 +86,7 @@ file skills/sermon-*/SKILL.md
 # 다시 클론
 cd ..
 rm -rf claude-sermon-skills
-git clone https://github.com/<YOUR_GITHUB>/claude-sermon-skills.git
+git clone https://github.com/idoforgod/claude-sermon-skills.git
 ```
 
 ### Q10. `cp -r` 시 권한 오류
@@ -142,7 +142,7 @@ git stash pop
 
 ## 🆘 그래도 해결되지 않는 경우
 
-[GitHub Issues](https://github.com/<YOUR_GITHUB>/claude-sermon-skills/issues)에 다음 정보를 포함하여 등록해 주세요:
+[GitHub Issues](https://github.com/idoforgod/claude-sermon-skills/issues)에 다음 정보를 포함하여 등록해 주세요:
 
 ```
 - 환경: macOS 14 / Ubuntu 22.04 / Windows 11 + WSL
