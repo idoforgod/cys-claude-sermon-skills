@@ -663,51 +663,75 @@ Each skill is documented in three sections — *What it is*, *When to use*, *Key
 
 ---
 
-## 📁 저장소 구조
+## 📁 저장소 구조 · Repository Structure
 
 ```
 claude-sermon-skills/
-├── README.md                       ← 이 문서
-├── LICENSE                         (MIT)
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
+├── README.md                  이 문서 / This document
+├── LICENSE                    MIT 라이선스 / MIT license
+├── CHANGELOG.md               변경 이력 / Release history
+├── CONTRIBUTING.md            기여 가이드 / Contribution guide
+├── CODE_OF_CONDUCT.md         행동 강령 / Code of conduct
 │
-├── skills/                         ← 20개 스킬 (개별 폴더 유지)
+├── skills/                    20개 스킬 (개별 폴더 유지) / 20 skills, one folder each
 │   ├── sermon-text-analysis-multimethod/
-│   │   └── SKILL.md
+│   │   └── SKILL.md           스킬 본체 / Skill spec
 │   ├── sermon-audience-feedback-persona/
 │   │   ├── SKILL.md
-│   │   └── personas/               (8명 페르소나)
+│   │   └── personas/          8명 회중 페르소나 / 8 congregation personas
 │   ├── sermon-emotive-writing-coach/
 │   │   ├── SKILL.md
-│   │   └── references/
-│   └── ... (나머지 17개)
+│   │   └── references/        보조 자료 / Reference assets
+│   └── … (나머지 17개 / 17 more)
 │
 ├── docs/
-│   ├── INSTALLATION.md             ← 환경별 상세 설치
-│   ├── ARCHITECTURE.md             ← 스킬 간 관계도
-│   ├── TROUBLESHOOTING.md
-│   └── FAQ.md
+│   ├── INSTALLATION.md        환경별 상세 설치 / Per-surface install guide
+│   ├── ARCHITECTURE.md        스킬 간 관계도 / Inter-skill architecture
+│   ├── TROUBLESHOOTING.md     문제 해결 / Troubleshooting
+│   └── FAQ.md                 자주 묻는 질문 / Frequently asked questions
 │
-├── examples/
-│   ├── USAGE_EXAMPLES.md           ← 7가지 실제 시나리오
-│   ├── 01-weekly-sermon-prep.md
-│   ├── 02-doctrinal-series.md
-│   └── ... (시나리오별 상세)
+├── examples/                  7가지 실제 시나리오 / 7 end-to-end scenarios
+│   ├── USAGE_EXAMPLES.md      시나리오 인덱스 / Scenario index
+│   ├── 01-weekly-sermon-prep.md          매주 설교 준비 / Weekly prep
+│   ├── 02-doctrinal-series.md            교리설교 시리즈 / Doctrinal series
+│   ├── 03-monthly-qt.md                  월간 QT / Monthly QT
+│   ├── 04-textual-criticism-deep.md      본문비평 심화 / Deep textual criticism
+│   ├── 05-audience-feedback-validation.md 회중 검증 / Audience validation
+│   ├── 06-annual-planning.md             연간 설교 기획 / Annual planning
+│   └── 07-theologian-coaching.md         신학자 코칭 / Theologian coaching
 │
 ├── scripts/
-│   ├── install.sh                  ← 자동 설치
-│   ├── uninstall.sh
-│   ├── verify.sh                   ← 설치 검증
-│   └── package.sh                  ← claude.ai 업로드용 ZIP 생성
+│   ├── install.sh             자동 설치 / Auto-installer
+│   ├── uninstall.sh           제거 / Uninstaller
+│   ├── verify.sh              설치 검증 / Install verification
+│   ├── package.sh             Claude.ai 업로드용 ZIP 생성 / Build ZIPs for Claude.ai
+│   └── set-github-username.sh 문서 placeholder 일괄 치환 / Bulk-replace docs placeholder
 │
 └── .github/
     ├── workflows/
-    │   ├── validate-skills.yml     (frontmatter·구조 자동 검증)
-    │   └── release.yml             (태그 push 시 ZIP 자동 빌드)
-    └── ISSUE_TEMPLATE/
+    │   ├── validate-skills.yml frontmatter·구조 자동 검증 / Auto frontmatter+structure validation
+    │   └── release.yml         태그 push 시 ZIP 자동 빌드 / Auto ZIP build on tag push
+    ├── ISSUE_TEMPLATE/
+    │   ├── bug_report.md
+    │   ├── feature_request.md
+    │   └── config.yml
+    └── PULL_REQUEST_TEMPLATE.md
 ```
+
+---
+
+### 폴더 역할 한눈에 보기 / Folders at a glance
+
+| 폴더 / Folder | 역할 / Role | 누가 보면 좋은가 / Audience |
+|---|---|---|
+| **`skills/`** | 20개 스킬의 본체. 각 폴더에 `SKILL.md`(필수) + 선택적 `references/`·`personas/`. / *The 20 skill bundles. Each holds `SKILL.md` (required) plus optional `references/` or `personas/`.* | 모든 사용자 / *All users* |
+| **`docs/`** | 설치·아키텍처·트러블슈팅·FAQ 4종 심화 문서. / *Four reference docs: install, architecture, troubleshooting, FAQ.* | 도입·운영 담당 / *Adopters & maintainers* |
+| **`examples/`** | 강해·교리·QT·본문비평·검증·연간 기획·신학자 코칭 7가지 실전 시나리오. / *Seven real-world scenarios — exposition, doctrinal, QT, textual criticism, validation, annual planning, theologian coaching.* | 실제 적용을 원하는 설교자 / *Preachers ready to apply* |
+| **`scripts/`** | 설치·제거·검증·패키징·placeholder 치환 자동화 5종. / *Five automation scripts: install, uninstall, verify, package, placeholder swap.* | 터미널 사용자 / *CLI users* |
+| **`.github/`** | CI(스킬 자동 검증)·릴리스(ZIP 자동 빌드)·이슈/PR 템플릿. / *CI (skill validation), release (ZIP build), issue/PR templates.* | 기여자 / *Contributors* |
+
+> 💡 **스킬 폴더 단위가 곧 최소 배포 단위입니다** — `skills/sermon-*/` 한 폴더만 복사해도 그 스킬은 독립적으로 동작합니다.
+> *A skill folder is the minimum deployable unit — copy any single `skills/sermon-*/` and that skill works standalone.*
 
 ---
 
