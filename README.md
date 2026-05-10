@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📖 Claude Sermon Skills
+# 📖 CYS Claude Sermon Skills
 
 **한국 목회자·신학생·진지한 평신도를 위한 Claude 성경연구 및 설교준비 도우미 스킬 모음**
 
