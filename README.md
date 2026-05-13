@@ -295,6 +295,17 @@ cd <여기에-경로> \
 
 ---
 
+## 🔬 v1.1.0 정밀 검증 사이클 완료 (2026-05-13)
+
+> 21개 스킬 전체에 임의 케이스 정밀 검증을 수행하고, 그 결과를 SKILL.md·references·TEST-REPORT로 통합 반영했습니다. 자세한 변경 내역은 [`CHANGELOG.md`](./CHANGELOG.md) 참고.
+>
+> - **신규 스킬 1개**: `sermon-bible-history-matcher` (성경 인물·사건 ↔ 세계사 매칭, 할루시네이션 방지)
+> - **신규 레퍼런스 폴더 8개 스킬분** 추가: `calvin-style-insight`, `christian-history-interpreter`, `doctrinal-planner`, `history-culture-geo-context`, `lloyd-jones-coaching`, `luther-coaching`, `qt-original-text-based`, `topic-message-coach`
+> - **검증 보고서 33건** 추가: 다라운드 검증을 수행한 스킬은 V1~V4·R1~R2·ROUND1~ROUND4 등으로 명세
+> - **SKILL.md 20개 보강**: 메타데이터 정밀화, 트리거 키워드 확장, 1차 자료 인용 강화, 할루시네이션 방지 규약 명문화
+
+---
+
 ## 📚 스킬 목록 (21개)
 
 스킬은 **5개 카테고리**로 분류됩니다.
