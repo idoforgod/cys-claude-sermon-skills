@@ -121,3 +121,73 @@
 - **발견**: 1905년, 프랑스 발굴팀, 델피 아폴론 신전 인근
 - **주요 참고**: Murphy-O'Connor, J. (1983). *St. Paul's Corinth*. Liturgical Press.; Riesner, R. (1998). *Paul's Early Period*. Eerdmans.
 - **비고**: 신약학 연대표(chronology)의 가장 확고한 닻(anchor). 갈리오 = 철학자 세네카의 친형.
+
+---
+
+## V2 추가 사례 (TEST-REPORT-V2.md 기반)
+
+## [CONFIRMED] Case 11: 시삭(Shoshenq I)의 유다 침공
+- **성경**: 열왕기상 14:25–26; 역대하 12:1–9 (애굽 왕 시삭의 예루살렘 침공, BC 925)
+- **유물**: 부바스타이트 포털 (Bubastite Portal) at Karnak
+- **소장처**: 카르낙 신전 in situ, Precinct of Amun-Re, 람세스 3세 신전과 제2탑문 사이 — **박물관 소장이 아닌 현장 유적**
+- **연대**: BC 925년경 (제22왕조)
+- **핵심 인용**: 156개 가나안 도시명 토포그래픽 리스트; *yhd* (Judah, Champollion 1828년경 판독)
+- **주요 참고**: Kitchen, K.A. (1986). *The Third Intermediate Period in Egypt*. Aris & Phillips.; Wilson, K.A. (2005). *The Campaign of Pharaoh Shoshenq I into Palestine*. Mohr Siebeck.
+- **학계 논쟁**: 예루살렘이 목록에서 누락 → 르호보암의 조공으로 도시 함락 면제(왕상 14:26) 또는 후대 마모. 시삭=Shoshenq I 동일시는 학계 거의 만장일치.
+
+---
+
+## [CONFIRMED] Case 12: 산헤립의 라기스 함락 (부조)
+- **성경**: 열왕기하 18:13–14, 17; 이사야 36:1–2; 역대하 32:9
+- **유물**: 라기스 부조 (Lachish Reliefs)
+- **소장처**: 대영박물관, 런던 — Room 10b
+- **카탈로그 번호**: BM 124905, BM 124906, BM 124908, BM 124911, BM 124912 (석고 부조 패널 일련번호)
+- **핵심 인용**: "Sennacherib, king of the world, king of Assyria, set up a throne and the booty of Lachish passed before him" (왕좌 위 비문)
+- **발견**: 1845–1847년, Austen Henry Layard, 니네베 산헤립의 South-West Palace, Room XXXVI
+- **주요 참고**: Ussishkin, D. (1982). *The Conquest of Lachish by Sennacherib*. Tel Aviv University.; Russell, J.M. (1991). *Sennacherib's Palace Without Rival at Nineveh*. University of Chicago Press.
+
+---
+
+## [CONFIRMED] Case 13: 아합 왕 (카르카르 전투)
+- **성경**: 열왕기상 16:29–22:40 (아합 통치, BC 874–853)
+- **유물**: 쿠르크 모놀리스 (Kurkh Monolith of Shalmaneser III)
+- **소장처**: 대영박물관, 런던
+- **카탈로그 번호**: **BM 118884** (= ME 118884)
+- **핵심 인용**: "*A-ha-ab-bu* (māt) *Sir-ʾi-la-a-a*: 2,000 전차, 10,000 보병" (아합 이스라엘 사람)
+- **발견**: 1861년, John George Taylor, 쿠르크(현 터키 디야르바키르 Üçtepe Höyük); 1863년 대영박물관 기증
+- **주요 참고**: Grayson, A.K. (1996). *RIMA 3*. University of Toronto Press, A.0.102.2.; Younger, K.L. (2000). *The Context of Scripture* II. Brill.
+- **비고**: 아합 = 이스라엘 왕 개인이 외부 자료에 이름으로 언급된 최초 사례. 살만에셀의 과장 가능성(아합 전차 2,000)에 학자 논의 있음.
+
+---
+
+## [CONFIRMED] Case 14: 여호야긴의 바빌론 식량 배급
+- **성경**: 열왕기하 25:27–30; 예레미야 52:31–34
+- **유물**: 여호야긴 배급 점토판 (Jehoiachin Ration Tablets / Weidner Tablets)
+- **소장처**: 페르가몬 박물관 부속 고대 근동 박물관(Vorderasiatisches Museum), 베를린, Room 6
+- **카탈로그 번호**: **VAT 16378** (주 점토판) + Babylon 28122, Babylon 28178, Babylon 28186
+- **핵심 인용**: "기름 10시라(?) ... *Ia-'-ú-kinu*, 야후두 땅의 왕에게; 유다 왕의 다섯 아들에게 2½시라"
+- **발견**: 1899–1917년, Robert Koldewey, 바빌론 이슈타르 문 근처 지하 창고
+- **주요 참고**: Weidner, E.F. (1939). "Jojachin, König von Juda, in babylonischen Keilschrifttexten." *Mélanges Syriens offerts à Monsieur René Dussaud* II. Paris: Geuthner, pp. 923–935.; Pedersén, O. (2005). *Archive und Bibliotheken in Babylon*. SDV.
+
+---
+
+## [CONFIRMED] Case 15: 산헤립의 암살
+- **성경**: 열왕기하 19:37; 이사야 37:38 (아드람멜렉과 사레셀이 아버지를 죽임)
+- **유물 1**: 에살핫돈 니네베 A 프리즘 (Esarhaddon Nineveh A Prism) — 대영박물관 다수 사본 (RINAP 4, Leichty 2011: *Esarhaddon Inscription 001 = Nineveh A*); 1927–28 Campbell Thompson 발굴
+- **유물 2**: 바빌로니아 연대기 1 (Babylonian Chronicle ABC 1) — **BM 92502** (1887 Theophilus Pinches 초판)
+- **핵심 인용**: "On the 20th day of Tebet, his son revolted against him and they killed Sennacherib... Esarhaddon, his son, became king." (바빌로니아 연대기)
+- **아카디어 동정**: Adrammelech = **Arda-Mulissu** (Parpola 1980); Sharezer = **Nabû-šar-uṣur**
+- **주요 참고**: Parpola, S. (1980). "The Murderer of Sennacherib." In *Death in Mesopotamia*, ed. B. Alster. Akademisk Forlag.; Leichty, E. (2011). *The Royal Inscriptions of Esarhaddon, King of Assyria (680–669 BC)*. RINAP 4. Eisenbrauns.
+
+---
+
+## [CONFIRMED] Case 16: 다메섹 왕 하사엘
+- **성경**: 열왕기하 8:7–15, 28; 10:32; 12:17–18; 13:3, 22
+- **유물 1**: 살만에셀 III Assur 현무암상 (Black Stone Statue / Assur Basalt Statue)
+- **소장처**: 이스탄불 고대동방박물관(Museum of the Ancient Orient), 터키
+- **핵심 인용**: "*Adad-idri* (Ben-Hadad II) passed away. *Ḫazaʾili mār lā mammāna* (Hazael, 출신 미상자) took the throne." → 왕하 8:7–15의 찬탈 기사와 일치
+- **유물 2**: 알슬란 타시 상아 (Arslan Tash Ivories) — 루브르 박물관, 파리
+- **연대**: BC 9세기 후반 (Arslan Tash는 다메섹에서 약탈된 하사엘 궁전 가구)
+- **핵심 인용**: "...우리 주 하사엘에게" (*lmrʾn ḥzʾl*)
+- **유물 3 (보조)**: 텔 단 비문 (Tel Dan Stele) — 작성자 = 하사엘로 학계 다수 추정
+- **주요 참고**: Grayson, A.K. (1996). *RIMA 3*. University of Toronto Press, A.0.102.40.; Younger, K.L. (2005). "Hazael, Son of a Nobody." In *Writing and Ancient Near Eastern Society*. T&T Clark.
