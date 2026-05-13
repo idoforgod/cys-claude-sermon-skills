@@ -1,5 +1,5 @@
 ---
-name: bible-history-matcher
+name: sermon-bible-history-matcher
 description: 성경의 특정 인물·사건·본문 내용을 입력하면 세계사 자료(고고학적 유물, 고대 문헌, 학술 연구)에서 동일하게 매칭되는 역사적 사실을 찾아 제시하는 스킬. 할루시네이션 없는 검증된 증거만 제시하며 학계 주류 의견과 물리적 증거(유물 소장 정보 포함)를 반드시 포함. 사용 트리거: "성경 인물을 세계사에서 찾아줘", "이 성경 사건의 역사적 증거는?", "성경과 역사의 교차점", "성경 고고학 증거", biblical figure match, bible archaeology.
 ---
 

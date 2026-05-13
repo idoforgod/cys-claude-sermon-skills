@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# install.sh — Claude Code CLI 환경에 20개 sermon skill 자동 설치
+# install.sh — Claude Code CLI 환경에 sermon-* 스킬 일괄 자동 설치
+#               (skills/ 폴더의 모든 sermon-*/ 폴더를 동적으로 인식)
 #
 # 사용법:
 #   bash scripts/install.sh                  # 기본: ~/.claude/skills/ 에 심볼릭 링크

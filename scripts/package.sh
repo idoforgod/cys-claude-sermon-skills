@@ -2,9 +2,9 @@
 # package.sh — claude.ai 웹/앱 업로드용 ZIP 생성
 #
 # 산출물:
-#   dist/sermon-<name>.zip                 (개별 스킬 20개)
+#   dist/sermon-<name>.zip                     (각 sermon-* 스킬 1개씩 — 개수는 동적)
 #   dist/cys-claude-sermon-skills-all.zip      (전체 묶음 1개)
-#   dist/MANIFEST.txt                      (포함된 스킬 목록)
+#   dist/MANIFEST.txt                          (포함된 스킬 목록)
 #
 # 사용법:
 #   bash scripts/package.sh                # 전체 빌드
