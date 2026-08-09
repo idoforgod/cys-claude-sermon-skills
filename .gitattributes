@@ -1,0 +1,4 @@
+# 셸 스크립트는 반드시 LF 로 저장한다.
+# core.autocrlf=true 인 Windows 에서 CRLF 로 체크아웃되면
+# ./scripts/install.sh 처럼 직접 실행할 때 bad interpreter 오류가 난다.
+*.sh text eol=lf
