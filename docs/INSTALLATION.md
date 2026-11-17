@@ -218,7 +218,7 @@ bash scripts/uninstall.sh --target ./.claude/skills -y
 
 ## ✅ 설치 검증 체크리스트
 
-- [ ] `~/.claude/skills/` 또는 `./.claude/skills/`에 `sermon-*` 22개 폴더 존재
+- [ ] `~/.claude/skills/` 또는 `./.claude/skills/`에 `sermon-*` 23개 폴더 존재
 - [ ] 각 폴더에 `SKILL.md` 파일 존재
 - [ ] `bash scripts/verify.sh` 모든 항목 통과
 - [ ] Claude Code에서 *"sermon skill 목록 알려줘"* 라고 했을 때 인식됨

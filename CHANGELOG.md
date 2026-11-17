@@ -7,9 +7,9 @@
 
 ## [1.2.0] - 2026-09-08
 
-### ✍️ 신규 스킬 1개 — `sermon-k1-narrative` (K1 스타일 내러티브 설교문 작성)
+### ✍️ 신규 스킬 2개 — `sermon-k1-narrative` (K1 스타일 내러티브 설교문 작성) · `sermon-hooking` (`/후킹`, 켈러식 후킹 설교)
 
-임도균 『스토리가 살아있는 설교』(Text-story Driven / T&T 내러티브 설교)의 방법론을 학습·정리하여, "K1 스타일" 내러티브 설교문을 완성 형태로 산출하는 설교 작성 스킬을 추가. 총 스킬 수 21 → 22.
+임도균 『스토리가 살아있는 설교』(Text-story Driven / T&T 내러티브 설교)의 방법론을 학습·정리하여, "K1 스타일" 내러티브 설교문을 완성 형태로 산출하는 설교 작성 스킬을 추가. 총 스킬 수 21 → 22. 이어서 팀 켈러 강연 영상을 분석한 `sermon-hooking`을 추가해 22 → 23.
 
 #### Added — 신규 스킬 (1)
 - `sermon-k1-narrative` — 이야기 본문(장절)을 받아 K1 스타일 내러티브 설교문을 산출. "설교문 작성 & 기획" 카테고리에 편입.
@@ -20,11 +20,21 @@
 - references 4종: `tnt-method-core.md`·`k1-signature-rules.md`·`worked-examples.md`·`anti-cliche-checklist.md`.
 - evals 4케이스(`evals/evals.json`) + TEST-REPORT.
 
+#### Added — 신규 스킬 (2) `sermon-hooking`
+- `sermon-hooking` (스킬 이름 `후킹`, 명령어 `/후킹`) — 팀 켈러 「Walking with God through Pain and Suffering」(Gospel in Life, 2013, 강연+Q&A 57분)을 자막 전체와 장면 프레임으로 분석해 추출한 "후킹 설교법". "설교문 작성 & 기획" 카테고리에 편입.
+  - **세 겹 후킹**: 질문을 붙잡고 → 문화를 붙잡고 → 마음을 붙잡는다.
+  - **6대 원칙 + 15개 동작(필수 8개)**: 피할 수 없는 벽·두 청중 분리·질문 재구성과 정직한 양보·숨은 세계관 폭로·외부 증인·청중 문화 진단·복음의 고유 자원·"예"로 답하기·역설 쌍·병렬 요약·적용 전환·단계 아닌 국면과 상호 보정·정직한 자기 노출·그리스도 중심 절정.
+  - **0–7단계 절차**, 개요/완성 설교문/초안 점검 3모드, 후킹 점검표 14항목.
+  - **정확성 규칙 G1–G6**: 출처 고정, 인용 날조 금지(`[인용 확인 필요]`), 대안 세계관 공정 소개, 본문 우선, 강연→주일 설교 변환, 한국 맥락 치환.
+  - Q&A에서 추출한 목회·변증 원칙(내용보다 임재, 고난 네 유형별 처방, 십자가가 주는 '절반의 답').
+- references 3종: `keller-talk-analysis.md`·`hooking-moves.md`·`good-bad-examples.md`.
+
 #### Added — 검증
 - 4개 테스트 케이스(눅 15 탕자·삼상 17 다윗-골리앗·엡 2:1–10·룻기 1장)에 스킬 적용 vs 미적용 비교. 통과율 100%(일관) vs 62%(±15%). 부적합 본문 방어와 임도균 10단계 로드맵 충실도에서 최대 격차. 상세는 `skills/sermon-k1-narrative/TEST-REPORT.md`.
 
 #### Changed
 - README·`docs/ARCHITECTURE.md`·`docs/FAQ.md`·`docs/INSTALLATION.md`·`CONTRIBUTING.md` — 스킬 수 21 → 22, 목록·관계도·트리거 우선순위 표에 `sermon-k1-narrative` 반영.
+- 같은 문서들 — 스킬 수 22 → 23, 목록·관계도·조합·트리거 표에 `sermon-hooking` 반영. README 상세 목록 번호 21–23 재정렬, 설치 예시의 '통과' 수를 23으로 정정.
 
 ---
 

@@ -1,6 +1,6 @@
 # 아키텍처 — 스킬 간 관계도
 
-본 문서는 22개 sermon skill이 **어떤 영역을 분담**하고 **어떻게 서로 연결**되는지를 설명합니다.
+본 문서는 23개 sermon skill이 **어떤 영역을 분담**하고 **어떻게 서로 연결**되는지를 설명합니다.
 
 ---
 
@@ -61,6 +61,7 @@
    [작성 — 어떻게 글로 풀어낼까?]                                 │
         │                                                      │
    sermon-k1-narrative           (K1 스타일 내러티브 설교)        │
+   sermon-hooking                (/후킹, 켈러식 문화변증 설교)    │
    sermon-emotive-writing-coach  (글쓰기 코칭, 모든 장르)         │
    sermon-doctrinal-planner      (교리설교 4단계)                │
    sermon-calvin-style-insight   (강해 설교, lectio continua)    │
@@ -130,18 +131,21 @@ history-culture-geo-context  →  bible-history-matcher          →  christian-
 | **christian-history-interpreter** | 성경 시대 *이후* 역사 해석 | 콘스탄티누스 ~ 한국 교회사를 기독교 시각으로 |
 | **topic-research-multidisciplinary** | 현대 *11분야* 학제간 자료 | 사회·기술·산업·경제·환경·정치·국제·법·제도·심리·영성 |
 
-### 4️⃣ 설교문 작성 & 기획 (6) — 장르별
+### 4️⃣ 설교문 작성 & 기획 (7) — 장르별
 
 ```
 [입구]              topic-message-coach          (어떤 주제로 갈지 모를 때)
 [연간]              planner-52week               (1년치 한 번에)
 [내러티브]          k1-narrative                 (이야기 본문 → K1 스타일 스토리 설교)
+[문화변증]          hooking (/후킹)              (회의자 + 아픈 성도 → 켈러식 후킹 설교)
 [교리]              doctrinal-planner            (교리 명제 → 4단계)
 [강해]              calvin-style-insight         (lectio continua)
 [글쓰기 전반]       emotive-writing-coach        (모든 장르 공통, 문장·문단·전체)
 ```
 
 **k1-narrative vs 인접 스킬**: 이야기 본문의 완성 설교문은 `k1-narrative`, 서신서 교리 단락은 `doctrinal-planner`·`calvin-style-insight`, 짧은 큐티는 `qt-original-text-based`, 장르 무관 문체 퇴고는 `emotive-writing-coach`. `k1-narrative`는 임도균 T&T 방법론 + K1 다섯 시그니처(수미쌍관·원포인트·반전·비관습·궁금증→해석→도전)를 강제한다.
+
+**hooking vs 인접 스킬**: 청중의 질문·문화를 먼저 붙잡고 대안 세계관과 비교해 복음을 보여 주는 변증·목회 설교는 `hooking`(명령어 `/후킹`), 이야기 본문의 장면 중심 설교는 `k1-narrative`, 교리 명제 전달은 `doctrinal-planner`. 둘을 결합하면 `hooking`의 '피할 수 없는 벽' 이미지를 `k1-narrative`의 수미쌍관 예화로 쓸 수 있다.
 
 ### 5️⃣ 큐티 & 검증 (2)
 
@@ -188,6 +192,15 @@ text-analysis-multimethod (본문 관찰 + 가짜 해석 필터)
   → audience-feedback-persona (검증)
 ```
 
+### 조합 3-c. 회의자와 아픈 성도를 함께 붙잡는 설교 (/후킹)
+```
+topic-message-coach (주제·두 청중의 질문 정립)
+  → topic-research-multidisciplinary (대안 세계관·문화 자료)
+  → hooking (15개 후킹 동작으로 개요·원고)
+  → emotive-writing-coach (문장 퇴고)
+  → audience-feedback-persona (회의적 청년·고난 중인 성도 페르소나 검증)
+```
+
 ### 조합 4. 큐티 작성
 ```
 text-analysis-multimethod (간단 분석)
@@ -223,6 +236,7 @@ planner-52week (52주 키워드 기반 자동 생성)
 | "주제를 못 잡겠다" | `topic-message-coach` |
 | "52주 설교 계획" | `planner-52week` |
 | "K1 스타일 설교" / "내러티브·스토리 설교" / "수미쌍관 예화" / "반전 있는 설교" | `k1-narrative` |
+| "/후킹" / "켈러식 설교" / "문화변증 설교" / "비신자도 듣는 설교" | `hooking` |
 | "설교문 다듬어줘" | `emotive-writing-coach` |
 
 ---
