@@ -4,14 +4,14 @@
 
 **한국 목회자·신학생·진지한 평신도를 위한 Claude 성경연구 및 설교준비 도우미 스킬 모음**
 
-21개의 통합 설교준비 및 성경연구 스킬 · Claude.ai 웹/앱 + Claude Code CLI 동시 지원
+23개의 통합 설교준비 및 성경연구 스킬 · Claude.ai 웹/앱 + Claude Code CLI 동시 지원
 
-[![Skills](https://img.shields.io/badge/skills-21-blue)](./skills)
+[![Skills](https://img.shields.io/badge/skills-23-blue)](./skills)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Claude](https://img.shields.io/badge/Claude-Skills-orange)](https://docs.claude.com)
 [![Korean](https://img.shields.io/badge/lang-한국어-red)](./README.md)
 
-[설치하기](#-빠른-설치) · [업데이트 방법](#-이미-설치하신-분들--신규-스킬-업데이트-방법) · [스킬 목록](#-스킬-목록-21개) · [사용 예시](./examples/USAGE_EXAMPLES.md) · [기여하기](./CONTRIBUTING.md)
+[설치하기](#-빠른-설치) · [업데이트 방법](#-이미-설치하신-분들--신규-스킬-업데이트-방법) · [스킬 목록](#-스킬-목록-23개) · [사용 예시](./examples/USAGE_EXAMPLES.md) · [기여하기](./CONTRIBUTING.md)
 
 </div>
 
@@ -107,19 +107,19 @@ git clone https://github.com/idoforgod/cys-claude-sermon-skills.git ~/cys-claude
 **3단계** — 글자들이 주르륵 흐르다가 마지막에 아래와 비슷한 메시지가 보이면 성공입니다.
 
 ```
-검사한 스킬:    21 / 21
-✓ 통과:        21
+검사한 스킬:    23 / 23
+✓ 통과:        23
 ✓ 모든 스킬이 정상 설치되어 있습니다.
 ```
 
-**4단계** — **Claude Code를 한 번 껐다 켜시면** 21개 sermon 스킬이 모두 활성화되어 바로 쓰실 수 있습니다.
+**4단계** — **Claude Code를 한 번 껐다 켜시면** 23개 sermon 스킬이 모두 활성화되어 바로 쓰실 수 있습니다.
 
 #### 위 한 줄이 하는 일 (이해를 돕기 위해)
 
 - `git clone ...` — GitHub에서 본 저장소 전체를 **홈 폴더 아래 `cys-claude-sermon-skills`** 라는 폴더에 받아옵니다. 홈 폴더(`~`)는 macOS에서는 `/Users/사용자이름/`, Linux는 `/home/사용자이름/`, Windows WSL은 `/home/사용자이름/`을 가리킵니다.
 - `cd ~/cys-claude-sermon-skills` — 방금 받은 폴더로 들어갑니다.
-- `bash scripts/install.sh` — `~/.claude/skills/` 자리에 21개 스킬 폴더 바로가기(심볼릭 링크)를 만들어 줍니다. **원본 파일은 저장소 폴더에 그대로 남아 있고**, Claude Code는 그 바로가기를 따라가 스킬을 읽습니다.
-- `bash scripts/verify.sh` — 21개가 모두 잘 설치됐는지 자동으로 점검합니다.
+- `bash scripts/install.sh` — `~/.claude/skills/` 자리에 23개 스킬 폴더 바로가기(심볼릭 링크)를 만들어 줍니다. **원본 파일은 저장소 폴더에 그대로 남아 있고**, Claude Code는 그 바로가기를 따라가 스킬을 읽습니다.
+- `bash scripts/verify.sh` — 23개가 모두 잘 설치됐는지 자동으로 점검합니다.
 
 > 💡 **새로운 스킬이 추가됐을 때 어떻게 받나요?** — 본 README의 [업데이트 방법](#-이미-설치하신-분들--신규-스킬-업데이트-방법) 절을 참고하세요.
 
@@ -136,7 +136,7 @@ git clone https://github.com/idoforgod/cys-claude-sermon-skills.git
 # 2단계: 받은 폴더로 들어가기
 cd cys-claude-sermon-skills
 
-# 3단계: ~/.claude/skills/ 에 21개 스킬 바로가기를 만들기
+# 3단계: ~/.claude/skills/ 에 23개 스킬 바로가기를 만들기
 bash scripts/install.sh
 
 # 4단계: 잘 설치됐는지 자동 점검
@@ -173,18 +173,18 @@ cd ~/cys-claude-sermon-skills
 bash scripts/package.sh
 ```
 
-실행하면 `dist/` 폴더에 **개별 스킬 ZIP 21개**(`sermon-*.zip`)와 **전체 묶음 1개**(`cys-claude-sermon-skills-all.zip`)가 생깁니다. 이 ZIP을 Claude.ai에 업로드하시면 됩니다.
+실행하면 `dist/` 폴더에 **개별 스킬 ZIP 23개**(`sermon-*.zip`)와 **전체 묶음 1개**(`cys-claude-sermon-skills-all.zip`)가 생깁니다. 이 ZIP을 Claude.ai에 업로드하시면 됩니다.
 
 #### 터미널을 안 쓰시는 분 — 직접 다운로드
 
 1. 본 GitHub 저장소 페이지(<https://github.com/idoforgod/cys-claude-sermon-skills>)에 접속하세요.
 2. 우측 상단의 초록색 **`Code`** 버튼을 누르고 **`Download ZIP`** 을 누르세요.
 3. 다운로드된 ZIP 파일을 두 번 클릭해 압축을 푸세요.
-4. 압축을 푼 폴더 안의 **`skills/`** 폴더에 21개의 `sermon-*` 폴더가 들어 있습니다. 각 폴더를 ZIP으로 다시 묶거나, `skills/` 폴더 자체를 Claude.ai에 업로드하시면 됩니다.
+4. 압축을 푼 폴더 안의 **`skills/`** 폴더에 23개의 `sermon-*` 폴더가 들어 있습니다. 각 폴더를 ZIP으로 다시 묶거나, `skills/` 폴더 자체를 Claude.ai에 업로드하시면 됩니다.
 
 #### Claude.ai에 업로드하는 자리
 
-- [claude.ai/projects](https://claude.ai/projects) 에서 **새 Project(프로젝트)** 를 만든 뒤 **`Add Files`** 에 ZIP을 끌어 놓으세요. 해당 Project에서 대화할 때마다 21개 스킬이 자동으로 활성화됩니다.
+- [claude.ai/projects](https://claude.ai/projects) 에서 **새 Project(프로젝트)** 를 만든 뒤 **`Add Files`** 에 ZIP을 끌어 놓으세요. 해당 Project에서 대화할 때마다 23개 스킬이 자동으로 활성화됩니다.
 - 또는 일회성으로 쓰시려면 일반 대화창에 **종이 클립 모양 아이콘** 으로 ZIP을 첨부해도 됩니다.
 
 > 💡 **모바일에서 쓰실 분** — claude.ai 웹에서 한 번 Project에 업로드해 두면, 모바일 앱에서 같은 계정으로 로그인할 때 자동으로 동기화되어 그대로 쓰실 수 있습니다.
@@ -306,7 +306,7 @@ cd <여기에-경로> \
 
 ---
 
-## 📚 스킬 목록 (21개)
+## 📚 스킬 목록 (23개)
 
 스킬은 **5개 카테고리**로 분류됩니다.
 
@@ -339,11 +339,13 @@ cd <여기에-경로> \
 | [`sermon-christian-history-interpreter`](./skills/sermon-christian-history-interpreter) | 성경 시대 이후 모든 역사를 기독교적 시각으로 해석 |
 | [`sermon-topic-research-multidisciplinary`](./skills/sermon-topic-research-multidisciplinary) | 11개 학문 분야 학제간 설교 주제 자료 조사 |
 
-### ✍️ 4. 설교문 작성 & 기획 (5개)
+### ✍️ 4. 설교문 작성 & 기획 (7개)
 
 | 스킬명 | 한 줄 설명 |
 |---|---|
 | [`sermon-topic-message-coach`](./skills/sermon-topic-message-coach) | 6단계 대화로 주제·메시지 정립 (설교 준비 입구) |
+| [`sermon-k1-narrative`](./skills/sermon-k1-narrative) | K1 스타일 내러티브 설교문 작성 (수미쌍관·원포인트·반전·궁금증→해석→도전, T&T 3모델) |
+| [`sermon-hooking`](./skills/sermon-hooking) | `/후킹` — 팀 켈러식 문화변증 설교 (회의자와 아픈 성도를 함께 붙잡는 15개 후킹 동작) |
 | [`sermon-emotive-writing-coach`](./skills/sermon-emotive-writing-coach) | 설득력 있는 설교문 작성 인터랙티브 글쓰기 코칭 |
 | [`sermon-doctrinal-planner`](./skills/sermon-doctrinal-planner) | 4단계 교리설교 기획안 자동 생성 |
 | [`sermon-calvin-style-insight`](./skills/sermon-calvin-style-insight) | 칼빈식 lectio continua 강해 설교문 작성 |
@@ -710,8 +712,8 @@ Each skill is documented in four sections — *What it is*, *When to use*, *Key 
 
 ### ✍️ 카테고리 4. 설교문 작성 & 기획 · Sermon Writing & Planning
 
-*v1.1.0 검증 5/5 · 신규 references 3개 (`sermon-topic-message-coach`·`sermon-doctrinal-planner`·`sermon-calvin-style-insight`)*
-*Verified 5/5 in v1.1.0 · 3 new reference folders (`sermon-topic-message-coach`, `sermon-doctrinal-planner`, `sermon-calvin-style-insight`)*
+*v1.1.0 검증 5/5 · 신규 references 3개 (`sermon-topic-message-coach`·`sermon-doctrinal-planner`·`sermon-calvin-style-insight`) · v1.2.0 신규 스킬 2개 (`sermon-k1-narrative`·`sermon-hooking`)*
+*Verified 5/5 in v1.1.0 · 3 new reference folders · 2 new skills in v1.2.0 (`sermon-k1-narrative`, `sermon-hooking`)*
 
 #### 15. `sermon-topic-message-coach`  *(+references in v1.1.0)*
 
@@ -827,12 +829,64 @@ Each skill is documented in four sections — *What it is*, *When to use*, *Key 
 
 ---
 
+#### 20. `sermon-k1-narrative`  *(NEW in v1.2.0)*
+
+**무엇이냐 / What it is**
+- **KO** — 이야기 본문(장절)을 받아 **"K1 스타일" 내러티브 설교문**을 완성 형태로 산출. 임도균 『스토리가 살아있는 설교』의 **T&T 내러티브 방법론**(다섯 렌즈 관찰 → 준비 4C → 7블록 → 세 모델)을 뼈대로, **K1 다섯 시그니처**를 기본값으로 강제 — (1) **수미쌍관 예화**(도입 '삶의 한 장면'을 마무리에서 해석·전환된 상태로 재소환), (2) **원포인트**(중심 메시지 한 문장), (3) **반전**(본문의 전환 절을 설교의 경첩으로), (4) **뻔하지 않음**(설명이 아니라 장면, 도식적 3대지 금지), (5) **궁금증→해석→도전**(귀납적 도입, 절정의 성경 인용 해석, 초대형 마무리). 단순형(기본값)·대화형·대지형 세 모델 + 선택적 10단계 로드맵.
+- **EN** — Generates a **complete "K1-style" narrative sermon** from a story passage. Built on the **T&T Narrative Preaching** method of Do-Kyun Lim's *Story-Driven Preaching* (five observation lenses → the 4C prep flow → seven building blocks → three models), with the **five K1 signatures** enforced as defaults: (1) **inclusio illustration** (a "slice of life" scene opened at the start and re-summoned transformed at the close), (2) **one central-message sentence**, (3) **the turn** (the passage's turning verse as the sermon's hinge), (4) **not the obvious** (scene, not explanation; no formulaic three points), (5) **mystery → interpretation → challenge** (inductive opening, climax interpreted via Scripture, invitational close). One-way (default) / Dialogue / Point models, plus an optional 10-step roadmap.
+
+**언제 쓰나 / When to use**
+- 창세기·사무엘·복음서 이야기 등 **이야기 본문**을 스토리텔링 설교로 풀 때 / *For preaching narrative texts as story.*
+- "K1 스타일", "내러티브 설교", "수미쌍관 예화", "원포인트", "반전 있는 설교", "궁금증으로 시작하는 설교"를 요청할 때 / *When the K1 style or narrative-sermon craft is requested.*
+- 주일·수요·새벽 설교문 초안이 필요할 때 / *For Sunday, midweek, or dawn sermon drafts.*
+
+**핵심 기능 / Key features**
+- K1 다섯 시그니처를 매 산출물에서 구현 + 출력 직전 **K1-1~K1-9 자기 검증** / *Five signatures enforced per output, with a K1-1–K1-9 pre-output checklist.*
+- 세 모델 선택 + 분량 3레벨(간단/표준/상세) / *Three models + three length levels.*
+- **본문 적합성 판단** — 서신서 교리 단락 등 플롯이 약한 본문은 억지 내러티브 대신 대지형·`sermon-doctrinal-planner`·`sermon-calvin-style-insight` 안내 / *Suitability gate — routes epistolary/doctrinal passages elsewhere instead of forcing a plot.*
+
+**분담 / Division of labor**
+- 상류: `sermon-text-analysis-multimethod`·`sermon-bible-dictionary`·`sermon-topic-message-coach` / 하류: `sermon-emotive-writing-coach`(문체 퇴고)·`sermon-audience-feedback-persona`(초안 검증). 짧은 큐티는 `sermon-qt-original-text-based`.
+
+**보조 자료 / References**
+- `tnt-method-core.md`(다섯 렌즈·세 모델 뼈대·10단계 로드맵)·`k1-signature-rules.md`(다섯 시그니처 상세 규칙·좋은 예/나쁜 예)·`worked-examples.md`(삭개오·혈루증 여인 세 모델 골격)·`anti-cliche-checklist.md`(뻔한 설교 안티패턴 20·가짜 해석 필터).
+
+---
+
+#### 21. `sermon-hooking`  *(NEW in v1.2.0 · 명령어 `/후킹`)*
+
+**무엇이냐 / What it is**
+- **KO** — 팀 켈러의 2013년 강연 「Walking with God through Pain and Suffering」(Gospel in Life, 강연+Q&A 57분)을 영상으로 분석해 추출한 **"후킹 설교법"**으로 설교를 기획·작성·점검. 후킹은 자극적 일화가 아니라 세 겹의 붙잡기 — **질문**(청중이 이미 품은 질문을 정확히 말해 줌), **문화**(청중의 세계관이 이 문제 앞에서 어디서 무너지는지 보여 줌), **마음**(논증에서 "지금 아픈 당신은 어떻게 살아남나"로 내려와 예수 앞에 세움). 6대 원칙 + 15개 후킹 동작(필수 8개) + 0–7단계 절차.
+- **EN** — Plans, writes, and reviews sermons with a **"hooking" method** distilled from video analysis of Timothy Keller's 2013 talk *Walking with God through Pain and Suffering* (Gospel in Life, talk + Q&A). The hook is threefold: catch the **question**, catch the **culture**, catch the **heart** — six principles, fifteen moves (eight required), and a 0–7 step procedure.
+
+**언제 쓰나 / When to use**
+- 회의적인 청중과 고난 중인 성도를 **한 설교에서 함께** 섬겨야 할 때 / *When skeptics and sufferers sit in the same pews.*
+- "/후킹", "켈러식 설교", "문화변증 설교", "비신자도 듣는 설교", "도입에서 확 잡는 설교", "고난 설교"를 요청할 때 / *For Keller-style apologetic or pastoral sermons.*
+- 이미 쓴 초안을 후킹 기준으로 진단받고 싶을 때 / *To audit an existing draft against the hooking checklist.*
+
+**핵심 기능 / Key features**
+- 15개 동작: 피할 수 없는 벽 · 두 청중 분리 · 질문 재구성과 정직한 양보 · 숨은 세계관 폭로 · 청중 문화 진단 · 복음의 고유 자원 · "예"로 답하기 · 역설 쌍 · 병렬 요약 · 적용 전환 · 단계 아닌 국면과 상호 보정 · 그리스도 중심 절정 등 / *Fifteen moves from the universalizing image to the Christ-centered climax.*
+- 개요 / 완성 설교문 / 초안 점검 3모드 + 출력 직전 **후킹 점검표 14항목** / *Three output modes plus a 14-item pre-output checklist.*
+- 정확성 규칙 G1–G6 — 인용 날조 금지(`[인용 확인 필요]` 표시), 대안 세계관 공정 소개, 본문 우선, 미국 문화 진단의 **한국 맥락 치환** / *Guards against fabricated quotes and straw men; localizes the cultural diagnosis for Korea.*
+- Q&A에서 추출한 목회 원칙 — 내용보다 임재, 고난의 네 유형별 처방, "모르겠습니다"도 답 / *Pastoral care principles from the Q&A.*
+
+**분담 / Division of labor**
+- 이야기 본문의 수미쌍관 예화는 `sermon-k1-narrative`와 결합, 문장 퇴고는 `sermon-emotive-writing-coach`, 회중 검증은 `sermon-audience-feedback-persona`, 대안 세계관 자료 조사는 `sermon-topic-research-multidisciplinary`.
+
+**보조 자료 / References**
+- `keller-talk-analysis.md`(영상 구간별 분석·Q&A 요지·인용 자료 목록)·`hooking-moves.md`(15개 동작 템플릿·흔한 실수)·`good-bad-examples.md`(동작별 좋은 예/나쁜 예 10쌍·요셉 본문 전체 개요 예시).
+
+**명령어 이름 / Command name**
+- 스킬 이름(`name`)이 `후킹`입니다. `/후킹`으로 부르려면 `~/.claude/skills/` 아래 링크 이름도 `후킹`으로 두세요: `ln -s "$PWD/skills/sermon-hooking" ~/.claude/skills/후킹` / *Link the folder as `후킹` to invoke it as `/후킹`.*
+
+---
+
 ### 🙏 카테고리 5. 큐티 & 검증 · QT & Validation
 
 *v1.1.0 검증 2/2 · 신규 references 1개 (`sermon-qt-original-text-based`)*
 *Verified 2/2 in v1.1.0 · 1 new reference folder (`sermon-qt-original-text-based`)*
 
-#### 20. `sermon-qt-original-text-based`  *(+references in v1.1.0)*
+#### 22. `sermon-qt-original-text-based`  *(+references in v1.1.0)*
 
 **무엇이냐 / What it is**
 - **KO** — 성경 본문을 받아 **원어 분석 기반의 완성된 큐티(QT)** 를 자동 생성. **'생명의 삶'·'매일성경' 스타일**의 짧은 설교형 구조 — (1) 신문기사·시·영화·도서 등 **예화 기반 서론** (웹 검색 활용), (2) 헬라어/히브리어 원문 분석과 발음(영어·한글), (3) **3대지 구성(한 대지는 반드시 원문 핵심 의미)**, (4) 적용과 오늘의 기도.
@@ -855,7 +909,7 @@ Each skill is documented in four sections — *What it is*, *When to use*, *Key 
 
 ---
 
-#### 21. `sermon-audience-feedback-persona`
+#### 23. `sermon-audience-feedback-persona`
 
 **무엇이냐 / What it is**
 - **KO** — 설교문 초안에 대해 **8명의 가상 회중 페르소나**가 강단 아래에서 듣는 것처럼 솔직한 반응을 돌려주는 다중 페르소나 시뮬레이션. 워킹맘·미혼 청년·중년 사업가·은퇴 직전 권사·새신자 청년·이혼 후 홀로 양육·고3 입시생·1세대 홀몸 권사. 각자의 시간표·신앙 연륜·죄성·신학 수준에서 응답.
@@ -1003,7 +1057,7 @@ cys-claude-sermon-skills/
 ├── CONTRIBUTING.md            기여 가이드 / Contribution guide
 ├── CODE_OF_CONDUCT.md         행동 강령 / Code of conduct
 │
-├── skills/                    21개 스킬 (개별 폴더 유지) / 21 skills, one folder each
+├── skills/                    23개 스킬 (개별 폴더 유지) / 23 skills, one folder each
 │   ├── sermon-text-analysis-multimethod/
 │   │   └── SKILL.md           스킬 본체 / Skill spec
 │   ├── sermon-audience-feedback-persona/
@@ -1054,7 +1108,7 @@ cys-claude-sermon-skills/
 
 | 폴더 / Folder | 역할 / Role | 누가 보면 좋은가 / Audience |
 |---|---|---|
-| **`skills/`** | 21개 스킬의 본체. 각 폴더에 `SKILL.md`(필수) + 선택적 `references/`·`personas/`. / *The 21 skill bundles. Each holds `SKILL.md` (required) plus optional `references/` or `personas/`.* | 모든 사용자 / *All users* |
+| **`skills/`** | 23개 스킬의 본체. 각 폴더에 `SKILL.md`(필수) + 선택적 `references/`·`personas/`. / *The 23 skill bundles. Each holds `SKILL.md` (required) plus optional `references/` or `personas/`.* | 모든 사용자 / *All users* |
 | **`docs/`** | 설치·아키텍처·트러블슈팅·FAQ 4종 심화 문서. / *Four reference docs: install, architecture, troubleshooting, FAQ.* | 도입·운영 담당 / *Adopters & maintainers* |
 | **`examples/`** | 강해·교리·QT·본문비평·검증·연간 기획·신학자 코칭 7가지 실전 시나리오. / *Seven real-world scenarios — exposition, doctrinal, QT, textual criticism, validation, annual planning, theologian coaching.* | 실제 적용을 원하는 설교자 / *Preachers ready to apply* |
 | **`scripts/`** | 설치·제거·검증·패키징·placeholder 치환 자동화 5종. / *Five automation scripts: install, uninstall, verify, package, placeholder swap.* | 터미널 사용자 / *CLI users* |
