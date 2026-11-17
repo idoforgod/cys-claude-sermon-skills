@@ -84,7 +84,7 @@ bash scripts/package.sh
 
 `dist/` 폴더에 다음 파일들이 생성됩니다:
 - `cys-claude-sermon-skills-all.zip` — 전체 묶음 (권장)
-- `sermon-<name>.zip` × 21 — 개별 스킬
+- `sermon-<name>.zip` × 22 — 개별 스킬
 
 #### 2) 압축 해제 후 업로드 준비
 ```bash
@@ -218,7 +218,7 @@ bash scripts/uninstall.sh --target ./.claude/skills -y
 
 ## ✅ 설치 검증 체크리스트
 
-- [ ] `~/.claude/skills/` 또는 `./.claude/skills/`에 `sermon-*` 21개 폴더 존재
+- [ ] `~/.claude/skills/` 또는 `./.claude/skills/`에 `sermon-*` 22개 폴더 존재
 - [ ] 각 폴더에 `SKILL.md` 파일 존재
 - [ ] `bash scripts/verify.sh` 모든 항목 통과
 - [ ] Claude Code에서 *"sermon skill 목록 알려줘"* 라고 했을 때 인식됨
